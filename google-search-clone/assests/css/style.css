@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: #00000090;
+}
+/* .full-body{
+    background-color: #00000090;
+}
+.full-body::after{
+    content: "";
+    display: table;
+    clear:both;
+} */
+.navbar ul li{
+    display: inline-block;
+    padding: 1rem;
+}
+.navbar ul li > a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.google-text{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+.google-text h1{
+    padding: 2rem;
+}
+.search-bar{
+    padding: 0.1rem;
+    text-align: center;
+    background-color:#fff;
+    width:40%;
+    margin:0 auto;
+    border-radius: 50px;
+}
+.search-bar::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.search-icon{
+    padding: 0.7rem;
+    float:left;
+    width:10%;
+}
+.input-area{
+    float:left;
+    width: 70%;
+    padding: 0.3rem;
+}
+.input-area input{
+    width: 100%;
+    padding: 0.5rem 10rem;
+    border-radius: 50px;
+    border:none;
+    padding:0.5rem;
+    text-align: left;
+}
+.voice-search-button{
+    width:5%;
+    float:left;
+    padding: 0.7rem 0 0.7rem 1rem;
+}
+.camera-search-button{
+    width:5%;
+    float:left;
+    padding: 0.7rem 0 0.7rem 2rem;
+}
+.google-search-and-iam-feeling-lucky{
+    text-align: center;
+    padding: 1rem;
+}
+.google-search-and-iam-feeling-lucky button{
+    padding: 0.5rem 1rem;
+}
+.google-offered-in{
+    text-align: center;
+    padding: 1rem;
+    color:#fff;
+}
+.google-offered-in h3, .google-offered-in a{
+    font-size: 1rem;
+    font-weight: 300;
+}
